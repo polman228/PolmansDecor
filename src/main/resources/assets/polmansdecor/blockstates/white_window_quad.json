@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "polmansdecor:window_q" },
+        "facing=west": { "model": "polmansdecor:window_q", "y": 90 },
+        "facing=north": { "model": "polmansdecor:window_q", "y": 180 },
+        "facing=east": { "model": "polmansdecor:window_q", "y": 270 }
+    }
+}
