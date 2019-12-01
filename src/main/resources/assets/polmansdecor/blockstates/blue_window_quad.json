@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "polmansdecor:windows_quad/blue_window_quad" },
+        "facing=west": { "model": "polmansdecor:windows_quad/blue_window_quad", "y": 90 },
+        "facing=north": { "model": "polmansdecor:windows_quad/blue_window_quad" },
+        "facing=east": { "model": "polmansdecor:windows_quad/blue_window_quad", "y": 90 }
+    }
+}

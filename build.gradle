@@ -11,9 +11,9 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
 
-version = "1.0"
-group = "polman228.polmansdecor" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "polmansdecor"
+group = package_group
+archivesBaseName = mod_name
+version = "${mcversion}-${modversion}"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
@@ -23,6 +23,10 @@ compileJava {
 minecraft {
     version = "1.12.2-14.23.5.2847"
     runDir = "run"
+	
+	replace "@VERSION@", project.version
+	replace "@MCVERSION@", project.minecraft.version
+    replaceIn "PolmansDecor.java"
     
     // the mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   snapshot are built nightly.
@@ -69,9 +73,10 @@ processResources {
         // replace version and mcversion
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
-        
+
     // copy everything else except the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
+		
     }
 }

@@ -1,0 +1,303 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+        "frame": "polmansdecor:blocks/frame_gray",
+		"glass_vm": "polmansdecor:blocks/glass_vm",
+		"particle": "polmansdecor:blocks/glass_quad"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "window_left",
+      "from": [
+        0,
+        0,
+        7
+      ],
+      "to": [
+        1,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            0,
+            1,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            0,
+            0,
+            1,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            2,
+            3,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "window_right",
+      "from": [
+        15,
+        0,
+        7
+      ],
+      "to": [
+        16,
+        16,
+        9
+      ],
+            "faces": {
+        "north": {
+          "texture": "#frame",
+          "uv": [
+            15,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#frame",
+          "uv": [
+            15,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            0,
+            4,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            2,
+            3,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#frame",
+          "uv": [
+            2,
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "glass",
+      "from": [
+        1,
+        0,
+        8
+      ],
+      "to": [
+        15,
+        16,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass_vm",
+          "uv": [
+            1,
+            0,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#glass_vm",
+          "uv": [
+            15,
+            0,
+            1,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#glass_vm",
+          "uv": [
+            1,
+            1,
+            15,
+            1
+          ]
+        },
+        "down": {
+          "texture": "#glass_vm",
+          "uv": [
+            1,
+            1,
+            15,
+            1
+          ]
+        }
+      }
+    }
+  ]
+}

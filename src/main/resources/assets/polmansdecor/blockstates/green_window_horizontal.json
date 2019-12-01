@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=south,state=0": { "model": "polmansdecor:windows_quad/green_window_quad" },
+        "facing=west,state=0": { "model": "polmansdecor:windows_quad/green_window_quad", "y": 90 },
+        "facing=north,state=0": { "model": "polmansdecor:windows_quad/green_window_quad" },
+        "facing=east,state=0": { "model": "polmansdecor:windows_quad/green_window_quad", "y": 90 },
+        "facing=south,state=1": { "model": "polmansdecor:windows_horizontal/green_window_hl" },
+        "facing=west,state=1": { "model": "polmansdecor:windows_horizontal/green_window_hl", "y": 90 },
+        "facing=north,state=1": { "model": "polmansdecor:windows_horizontal/green_window_hl" },
+        "facing=east,state=1": { "model": "polmansdecor:windows_horizontal/green_window_hl", "y": 90 },
+        "facing=south,state=2": { "model": "polmansdecor:windows_horizontal/green_window_hm" },
+        "facing=west,state=2": { "model": "polmansdecor:windows_horizontal/green_window_hm", "y": 90 },
+        "facing=north,state=2": { "model": "polmansdecor:windows_horizontal/green_window_hm" },
+        "facing=east,state=2": { "model": "polmansdecor:windows_horizontal/green_window_hm", "y": 90 },
+        "facing=south,state=3": { "model": "polmansdecor:windows_horizontal/green_window_hr" },
+        "facing=west,state=3": { "model": "polmansdecor:windows_horizontal/green_window_hr", "y": 90 },
+        "facing=north,state=3": { "model": "polmansdecor:windows_horizontal/green_window_hr" },
+        "facing=east,state=3": { "model": "polmansdecor:windows_horizontal/green_window_hr", "y": 90 }
+    }
+}

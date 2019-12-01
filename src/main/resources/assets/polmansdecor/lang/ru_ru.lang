@@ -1,1 +1,74 @@
-tile.white_window_quad.name=Квадратное окно
+itemGroup.polmansdecor.windowsTab=Polman's Decor: окна
+itemGroup.polmansdecor.lightingsTab=Polman's Decor: освещение
+
+# квадратные окна
+tile.oak_window_quad.name=Дубовое окно
+tile.spruce_window_quad.name=Еловое окно
+tile.birch_window_quad.name=Берёзовое окно
+tile.jungle_window_quad.name=Окно из тропического дерева
+tile.acacia_window_quad.name=Акациевое окно
+tile.dark_oak_window_quad.name=Окно из тёмного дуба
+tile.white_window_quad.name=Белое окно
+tile.orange_window_quad.name=Оранжевое окно
+tile.purple_window_quad.name=Пурпурное окно
+tile.light_blue_window_quad.name=Голубое окно
+tile.yellow_window_quad.name=Жёлтое окно
+tile.lime_window_quad.name=Лаймовое окно
+tile.pink_window_quad.name=Розовое окно
+tile.gray_window_quad.name=Серое окно
+tile.silver_window_quad.name=Светло-серое окно
+tile.cyan_window_quad.name=Бирюзовое окно
+tile.magenta_window_quad.name=Фиолетовое окно
+tile.blue_window_quad.name=Синее окно
+tile.brown_window_quad.name=Коричневое окно
+tile.green_window_quad.name=Зелёное окно
+tile.red_window_quad.name=Красное окно
+tile.black_window_quad.name=Чёрное окно
+
+# вертикальные окна
+tile.oak_window_vertical.name=Дубовое окно (вер.)
+tile.spruce_window_vertical.name=Еловое окно (вер.)
+tile.birch_window_vertical.name=Берёзовое окно (вер.)
+tile.jungle_window_vertical.name=Окно из тропического дерева (вер.)
+tile.acacia_window_vertical.name=Акациевое окно (вер.)
+tile.dark_oak_window_vertical.name=Окно из тёмного дуба (вер.)
+tile.white_window_vertical.name=Белое окно (вер.)
+tile.orange_window_vertical.name=Оранжевое окно (вер.)
+tile.purple_window_vertical.name=Пурпурное окно (вер.)
+tile.light_blue_window_vertical.name=Голубое окно (вер.)
+tile.yellow_window_vertical.name=Жёлтое окно (вер.)
+tile.lime_window_vertical.name=Лаймовое окно (вер.)
+tile.pink_window_vertical.name=Розовое окно (вер.)
+tile.gray_window_vertical.name=Серое окно (вер.)
+tile.silver_window_vertical.name=Светло-серое окно (вер.)
+tile.cyan_window_vertical.name=Бирюзовое окно (вер.)
+tile.magenta_window_vertical.name=Фиолетовое окно (вер.)
+tile.blue_window_vertical.name=Синее окно (вер.)
+tile.brown_window_vertical.name=Коричневое окно (вер.)
+tile.green_window_vertical.name=Зелёное окно (вер.)
+tile.red_window_vertical.name=Красное окно (вер.)
+tile.black_window_vertical.name=Чёрное окно (вер.)
+
+# горизонтальные окна
+tile.oak_window_horizontal.name=Дубовое окно (гор.)
+tile.spruce_window_horizontal.name=Еловое окно (гор.)
+tile.birch_window_horizontal.name=Берёзовое окно (гор.)
+tile.jungle_window_horizontal.name=Окно из тропического дерева (гор.)
+tile.acacia_window_horizontal.name=Акациевое окно (гор.)
+tile.dark_oak_window_horizontal.name=Окно из тёмного дуба (гор.)
+tile.white_window_horizontal.name=Белое окно (гор.)
+tile.orange_window_horizontal.name=Оранжевое окно (гор.)
+tile.purple_window_horizontal.name=Пурпурное окно (гор.)
+tile.light_blue_window_horizontal.name=Голубое окно (гор.)
+tile.yellow_window_horizontal.name=Жёлтое окно (гор.)
+tile.lime_window_horizontal.name=Лаймовое окно (гор.)
+tile.pink_window_horizontal.name=Розовое окно (гор.)
+tile.gray_window_horizontal.name=Серое окно (гор.)
+tile.silver_window_horizontal.name=Светло-серое окно (гор.)
+tile.cyan_window_horizontal.name=Бирюзовое окно (гор.)
+tile.magenta_window_horizontal.name=Фиолетовое окно (гор.)
+tile.blue_window_horizontal.name=Синее окно (гор.)
+tile.brown_window_horizontal.name=Коричневое окно (гор.)
+tile.green_window_horizontal.name=Зелёное окно (гор.)
+tile.red_window_horizontal.name=Красное окно (гор.)
+tile.black_window_horizontal.name=Чёрное окно (гор.)

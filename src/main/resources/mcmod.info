@@ -2,7 +2,6 @@
 {
   "modid": "polmansdecor",
   "name": "Polman's Decor",
-  "description": "Cool windows and lights!!!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://vk.com/polman228",
